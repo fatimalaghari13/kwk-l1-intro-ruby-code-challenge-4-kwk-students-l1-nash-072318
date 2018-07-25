@@ -28,7 +28,7 @@ def least_coins(cents)
   
   num_pennies = cents / 1
   solution[:pennies] = num_pennies
-  cents = cents - 5*num_pennies
+  cents = cents - 1*num_pennies
   
 puts solution
 end
